@@ -4,7 +4,7 @@
      float per;
      printf("Enter marks of Physics, Chemistry, Biology, Mathematics and Computer Science respectively\n");
      scanf("%d %d %d %d %d",&phy,&che,&bio,&math,&cs);
-     per=(phy+che+bio+math+cs)/5;
+     per=(phy+che+bio+math+cs)/5.0;
      if(per>=90)
      printf("Grade-A\n");
      else if(per>=80 && per<90)

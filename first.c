@@ -7,6 +7,7 @@ int main(){
     sum=a+b;
     diff=a-b;
     mult=a*b;
+    if(b!=0)
     div=a/b;
     printf("Sum= %d \n Difference= %d \n Product= %d \n Division= %f \n",sum,diff,mult,div);
     return 0;
